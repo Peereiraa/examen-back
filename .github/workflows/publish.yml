@@ -30,7 +30,7 @@ jobs:
 
 
       - name: Build Frontend Docker Image
-        run: docker build -t gzpereira/github-backend:latest ./back
+        run: docker build -t gzpereira/github-backend:latest .
 
 
       - name: Push Frontend Image to Docker Hub
